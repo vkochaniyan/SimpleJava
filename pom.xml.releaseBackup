@@ -12,7 +12,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.scm.id>my-scm-server</project.scm.id>
   </properties>
 
   <scm>
