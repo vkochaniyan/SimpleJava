@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="d:\Programs\jdk1.8.0_101\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -D maven.repo.local=C:\Users\venugopal.k\.m2\repository -s C:\Users\venugopal.k\AppData\Local\Temp\release-settings5486719060852833799.xml clean verify"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -D maven.repo.local=C:\Users\venugopal.k\.m2\repository -s C:\Users\venugopal.k\AppData\Local\Temp\release-settings3405573724904815538.xml clean verify"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,7 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.work.AppTest" name="testSayHello" time="0"/>
-  <testcase classname="com.work.AppTest" name="testAdd" time="0"/>
   <testcase classname="com.work.AppTest" name="testSubtract" time="0"/>
+  <testcase classname="com.work.AppTest" name="testAdd" time="0"/>
+  <testcase classname="com.work.AppTest" name="testSayHello" time="0"/>
 </testsuite>
