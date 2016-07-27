@@ -40,4 +40,8 @@ public class AppTest
     public void testAdd() {
     	assertEquals(a.add(1, 2),3);
     }
+
+    public void testSubtract() {
+    	assertEquals(a.subtract(100, 20),80);
+    }
 }
