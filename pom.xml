@@ -1,9 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com</groupId>
   <artifactId>work</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>work</name>
@@ -16,7 +17,6 @@
   <scm>
   	<developerConnection>scm:git:https://github.com/vkochaniyan/SimpleJava/</developerConnection>
   	<url>https://github.com/vkochaniyan/SimpleJava/</url>
-    <tag>work-0.0.4</tag>
   </scm>
  
   <dependencies>
@@ -36,25 +36,14 @@
   	</repositories>
       <distributionManagement>
             <snapshotRepository>
-                    <id>my-snapshot</id>
+                    <id>my-deployment</id>
                     <name>My internal repository</name>
                     <url>http://localhost:8081/repository/maven-snapshots/</url>
             </snapshotRepository>
             <repository>
-                    <id>my-rlse</id>
+                    <id>my-deployment</id>
                     <name>My internal repository</name>
                     <url>http://localhost:8081/repository/maven-releases/</url>
             </repository>
     </distributionManagement>
-<build>
-    <pluginManagement>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>                
-            </plugin>
-        </plugins>
-    </pluginManagement>
-</build>
 </project>
